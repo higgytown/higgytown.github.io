@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background-color: #EE7942;
+	background-color: #FFC469;
 }
 
 a{
@@ -31,7 +31,7 @@ position: relative;
 width: 425px;
 margin-top: 50px;
 margin-right: 200px;
-background-color: #F0966C;
+background-color: #FFC469;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
@@ -46,7 +46,7 @@ content: '';
 position: absolute;
 border-style: solid;
 border-width: 14px 22px 14px 0;
-border-color: transparent #F0966C;
+border-color: transparent #FFC469;
 display: block;
 width: 0;
 z-index: 1;
@@ -60,7 +60,7 @@ content: '';
 position: absolute;
 border-style: solid;
 border-width: 15px 23px 15px 0;
-border-color: transparent #7F7F7F;
+border-color: transparent #000000;
 display: block;
 width: 0;
 z-index: 0;
