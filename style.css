@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	background-color: #EE7942;
+}
+
+a{
+	color: #BF2F08;
+}
+
+#johig{
+	height: 100%;
+	float: left;
+}
+
+.mrms{
+	height: 100px;
+	width: auto;
+}
+
+.person{
+	width: 150px;
+}
+
+.desc{
+	width: 150px;
+	text-align: center;
+}
+
+.holdup{
+position: relative;
+width: 425px;
+margin-top: 50px;
+margin-right: 200px;
+background-color: #F0966C;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #7F7F7F solid 2px;
+float: right;
+padding: 40px;
+text-align: center;
+}
+
+.holdup:after{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 14px 22px 14px 0;
+border-color: transparent #F0966C;
+display: block;
+width: 0;
+z-index: 1;
+left: -22px;
+top: 40px;
+float: right;
+}
+
+.holdup:before{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 23px 15px 0;
+border-color: transparent #7F7F7F;
+display: block;
+width: 0;
+z-index: 0;
+left: -25px;
+top: 39px;
+float: right;
+}
+
+.twitter{
+	width: auto;
+	text-align: center;
+	margin-top: 200px;
+}
